@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1079938690834",
+    "project_id": "loginsingupapp",
+    "storage_bucket": "loginsingupapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079938690834:android:b4b039db295ca605168dcb",
+        "android_client_info": {
+          "package_name": "com.example.loginsingupapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079938690834-44laek6ar7obotl69skkjfqca2s2a0m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9ER6AY8wRqmQIPVGUxZrSWHr3VvYIzNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079938690834-44laek6ar7obotl69skkjfqca2s2a0m2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

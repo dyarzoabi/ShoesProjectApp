@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_light"
+    tools:context=".SingupActivity">
+
+    <EditText
+        android:id="@+id/emailsingup"
+        android:layout_width="370dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#0B0909"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <EditText
+        android:id="@+id/Passwordsingup"
+        android:layout_width="368dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#1E1B1B"
+        android:ems="10"
+        android:hint="PassWord"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <EditText
+        android:id="@+id/confirmpasswordSingup"
+        android:layout_width="369dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#0C0C0C"
+        android:ems="10"
+        android:hint="ConfirmPassword"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <Button
+        android:id="@+id/btnSingup"
+        android:layout_width="171dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#8B8BD6"
+        android:onClick="Singup"
+        android:text="Sign up"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="213dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
