@@ -72,7 +72,6 @@ public class AddShoeActivity extends AppCompatActivity {
             return;
         }
 
-
     Sneakers sneakers = new Sneakers( size, colorsho,Comppanyname,Phone, price, address , photo,Companysnames.valueOf(category));
        fbs.getFirestore().collection("Sneakers")
                      .add(sneakers)
@@ -115,5 +114,4 @@ public class AddShoeActivity extends AppCompatActivity {
             }
         }
     }
-}
 }

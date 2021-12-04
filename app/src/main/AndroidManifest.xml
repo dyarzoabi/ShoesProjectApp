@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginSingupApp">
         <activity
+            android:name=".ShoesDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AllShoesActivity"
+            android:exported="true" />
+        <activity
             android:name=".AddShoeActivity"
             android:exported="true" />
         <activity
